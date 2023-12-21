@@ -1,0 +1,3 @@
+tellraw @a ["",{"text":"Max Difficulty Enderdragon","bold":true,"color":"dark_purple"},{"text":" Datapack\nDeveloped by "},{"text":"sinOfL","color":"yellow"},{"text":"\n"},{"text":"Set Max Difficulty","color":"green","clickEvent":{"action":"run_command","value":"/summon creeper"}},{"text":" ","color":"green"},{"text":"[test2]","color":"green","hoverEvent":{"action":"show_item","contents":{"id":"copper_ingot"}}}]
+
+execute unless entity @e[type=marker,tag=MarkVarMDE] run function the_egg:init_scoreboard
