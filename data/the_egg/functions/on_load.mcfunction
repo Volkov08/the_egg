@@ -1,1 +1,1 @@
-execute unless entity @e[type=marker,tag=MarkVarMDE] run function the_egg:init_scoreboard
+execute unless entity @e[type=marker,tag=MarkVarMDE] run function the_egg:init_scoreboards
