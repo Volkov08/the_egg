@@ -1,0 +1,1 @@
+schedule function the_egg:timer10s 2m

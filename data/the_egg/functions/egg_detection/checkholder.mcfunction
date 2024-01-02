@@ -1,0 +1,1 @@
+execute as @a[scores={egg_pickup=1..}] run function the_egg:egg_detection/newholder
